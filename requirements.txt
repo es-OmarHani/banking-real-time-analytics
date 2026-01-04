@@ -1,0 +1,15 @@
+pyyaml
+psycopg2-binary
+faker
+python-dotenv
+requests
+
+kafka-python
+boto3
+pandas
+pyarrow
+fastparquet
+
+snowflake-connector-python
+
+dbt-snowflake
