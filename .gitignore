@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+build/
+dist/
+.venv/
+venv/
+banking_venv/
+pip-wheel-metadata/
+
+# Env / secrets
+.env
+**/.env
+!.env.example
+!**/.env.example
+
+# Airflow
+airflow.cfg
+airflow.db
+logs/
+docker/logs/
+docker/plugins/
+*.log
+
+# Docker volumes (if any local)
+data/
+minio_data/
+postgres_data/
+
+# dbt
+target/
+dbt_packages/
+logs/dbt.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Power BI 
+*.pbix  # keep binaries out of git
