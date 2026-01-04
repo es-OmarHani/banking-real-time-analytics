@@ -1,6 +1,8 @@
 # Banking Real-time Analytics Pipeline
 
-A complete end-to-end real-time analytics pipeline for banking data, demonstrating modern data engineering practices with CDC, event streaming, data lake storage, and cloud data warehousing.
+A production-ready, end-to-end real-time data pipeline that captures banking transactions as they happen and transforms them into actionable business insights. This project showcases modern data engineering architecture by streaming data from an operational PostgreSQL database through Kafka, storing it in a data lake, processing it in Snowflake data warehouse, and visualizing it in Power BI dashboards.
+
+The pipeline demonstrates enterprise-grade patterns including Change Data Capture (CDC) for real-time data replication, event-driven architecture for scalability, slowly changing dimensions (SCD Type 2) for historical tracking, and automated data quality testing. Built with industry-standard tools like Debezium, Apache Kafka, Airflow, dbt, and Snowflake, this project serves as a comprehensive reference implementation for building resilient, scalable data platforms.
 
 ## 📋 Project Overview
 
